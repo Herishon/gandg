@@ -1,0 +1,320 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* =================== */
+/* === MEDIA QUERY === */
+/* =================== */
+@media only screen and (max-width: 400px){
+    .scroll-top-btn-wrapper {
+        right: 20px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .mb-50 {
+        margin-bottom: 32px;
+    }
+
+    .mb-40 {
+        margin-bottom: 18px;
+    }
+
+    .mb-32 {
+        margin-bottom: 18px;
+    }
+
+    .navbar-expand-lg>.container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .carousel-slider {
+        margin-top: 125px !important;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    .carousel-slider .container,
+    .carousel-slider .carousel-inner {
+        padding: 0 !important;
+    }
+
+    .carousel-slider .mobile-slider-inner {
+        opacity: 0.9;
+    }
+
+    .carousel-slider .mobile-slider-inner .mobile-slider-img {
+        max-width: 100%;
+    }
+
+    .carousel-slider .mobile-slider-inner .overlay-1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 94%;
+        height: 10%;
+        background-color: #000000;
+        z-index: 99;
+    }
+    
+    .carousel-slider .mobile-slider-inner .overlay-2 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 94%;
+        height: 14%;
+        background-color: #000000;
+        z-index: 99;
+    }
+
+    .card .card-text {
+        font-size: 13px;
+        /* Line-height: 15.41px; */
+    }
+
+    .card .add-to-cart-btn {
+        margin-right: 3px;
+    }
+
+    .card .add-to-cart-btn,
+    .card .buy-now-btn {
+        font-size: 8px;
+        line-height: 9.48px;
+        padding: 6px 8px;
+    }
+
+    .card .offer-price,
+    .card .old-price {
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .top-selling .uni-banner,
+    .offers .uni-banner,
+    .new-arrival .uni-banner,
+    .deals .uni-banner,
+    .tws .uni-banner,
+    .speakers .uni-banner,
+    .vlogging .uni-banner,
+    .smart-watches .uni-banner,
+    .backpack .uni-banner {
+        height: 58px;
+        margin-bottom: 6px;
+        padding: 10px 20px;
+    }
+
+    .phones-tablets .uni-banner,
+    .laptop .uni-banner,
+    .accessories .uni-banner,
+    .video-games .uni-banner {
+        height: 58px;
+        margin-bottom: 27px;
+        padding: 10px 20px;
+    }
+
+    .top-selling .ts-bottom-title,
+    .offers .offers-title,
+    .new-arrival .new-arrival-title,
+    .deals .deals-title,
+    .phones-tablets .phones-tablets-title,
+    .laptop .laptop-title,
+    .accessories .accessories-title,
+    .tws .tws-title,
+    .speakers .speakers-title,
+    .vlogging .vlogging-title,
+    .smart-watches .smart-watches-title,
+    .backpack .backpack-title,
+    .video-games .video-games-title {
+        font-size: 12.73px;
+    }
+
+    .phones-tablets .phones-tablets-nav .owl-carousel .owl-prev,
+    .phones-tablets .phones-tablets-nav .owl-carousel .owl-next {
+        top: 20%;
+    }
+
+    .accessories .accessories-nav .owl-prev,
+    .accessories .accessories-nav .owl-next {
+        top: 11px;
+    }
+
+    .uni-see-more-btn {
+        font-size: 6.24px;
+        line-height: 7.39px;
+        padding: 3px 10px;
+    }
+
+    .shop-by-brands .slider .prev-arrow-lft {
+        left: -2px;
+        z-index: 99;
+    }
+
+    .shop-by-brands .slider .next-arrow-rgt {
+        right: -2px;
+        z-index: 99;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .sticky-search-bar {
+        position: static;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 99;
+        -webkit-box-shadow: 0 0.1rem 1.2rem rgba(0,0,0,0.1);
+        box-shadow: 0 0.1rem 1.2rem rgba(0,0,0,0.1);
+        z-index: 9999;
+    }
+    
+    .carousel-slider .carousel-inner {
+        padding: 73px 0;
+    }
+
+    .top-selling .ts-top-inner {
+        border: 1px solid rgb(27 27 29 / 6%);
+        -webkit-box-shadow: 0 10px 10px 3px rgb(0 0 0 / 4%);
+        box-shadow: 0 10px 10px 3px rgb(0 0 0 / 4%);
+        margin-top: 22px;
+        margin-bottom: 32px;
+    }
+
+    .shop-by-brands {
+        margin-bottom: 0;
+        padding: 30px 0 45px;
+    }
+
+    .shop-by-brands .shop-by-brands-title {
+        font-size: 30px;
+    }
+
+    .footer .ft-contact {
+        height: auto;
+        padding-top: 100px;
+    }
+
+    .footer .top-mail {
+        top: -75px;
+    }
+
+    .footer .ft-contact .top-mail-inner {
+        padding: 30px 15px;
+    }
+
+    .footer .top-mail .top-mail-title {
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.0015em;
+    }
+
+    .footer .top-mail .top-mail-input-group input {
+        padding: 19px 12px;
+    }
+    
+    .footer .form .top-mail-input-group .btn-submit {
+        font-size: 12px;
+        line-height: 14px;
+        padding: 6px 7px;
+    }
+
+    .footer .ft-logo-wrapper {
+        margin-bottom: 33px;
+    }
+    
+    .footer .contact-us {
+        margin-bottom: 25px;
+    }
+
+    .footer .ft-middle {
+        height: 390px;
+    }
+
+    .footer .store-locator {
+        width: auto;
+        display: inline-block !important;
+    }
+
+    .footer .copyright-text2 {
+        margin-bottom: 25px;
+    }
+
+    .scroll-top-btn-wrapper {
+        right: 25px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .top-search-bar .store-locator,
+    .top-search-bar .my-cart,
+    .top-search-bar .sign-in {
+        border: none;
+    }
+
+    .top-search-bar .top-icons {
+        width: 100%;
+    }
+
+    .nav-bar .navbar-collapse {
+        margin-left: 0;
+    }
+
+    .navbar-expand-lg>.container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .carousel-slider {
+        margin-top: 128px;
+    }
+
+    .footer .store-locator {
+        width: auto;
+        display: inline-block !important;
+    }
+
+    .footer .ft-contact .top-mail-inner {
+        margin: 0 16px;
+    }
+}
+
+@media only screen and (max-width: 1199px){
+    /* .top-selling {
+        
+    } */
+    .top-selling .ts-top-inner {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1300px){
+    .carousel-control-prev {
+        left: -50px !important;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .container {
+        max-width: 1320px;
+    }
+
+    .scroll-top-btn-wrapper {
+        right: 50px;
+    }
+}
